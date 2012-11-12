@@ -40,5 +40,16 @@ The directory structure is as follows:
 -- All of the external devices, directly connected to the mainboard need to be
    driven. That includes (but not limited to) the wireless radio, GPS, 
    and storage. Any code for that goes in here.
-   
+
+
+-- Some Build statistics --   
+AVR Memory Usage
+----------------
+Device: atxmega32a4
+
+Program:    6576 bytes (17.8% Full)
+(.text + .data + .bootloader)
+
+Data:        242 bytes (5.9% Full)
+(.data + .bss + .noinit)
 
