@@ -7,8 +7,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
-#include "usart_driver.h"
-#include "clksys_driver.h"
+#include "system/usart_driver.h"
+#include "system/clksys_driver.h"
 
 #define USART USARTE0
 #define NORMAL_PRIORITY			( tskIDLE_PRIORITY + 1 )

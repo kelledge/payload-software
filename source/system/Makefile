@@ -2,7 +2,7 @@
 include ../common.mk
 
 # Target file name (without extension).
-TARGET = rtos
+TARGET = system
 
 
 # Object files directory
@@ -12,18 +12,14 @@ OBJDIR = ./object
 
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = list.c
-SRC += queue.c
-SRC += tasks.c
-SRC += port.c
-SRC += heap_3.c
-
-CDEFS += -DGCC_XMEGA_AVR
-EXTRAINCDIRS = ./include ../
+SRC = usart_driver.c
+SRC += clksys_driver.c
+SRC += spi_driver.c
 
 #============================================================================
 
-# Add includes to CFLAGS
+
+# Add includes and defs to CFLAGS
 CFLAGS += $(patsubst %,-I%,$(EXTRAINCDIRS))
 CFLAGS += $(CDEFS)
 
@@ -45,11 +41,16 @@ GENDEPFLAGS = -MMD -MP -MF .dep/$(@F).d
 # Default target.
 all: begin build end
 	
+
 # Change the build target to build a HEX file or a library.
+#build: elf hex eep lss sym
 build: lib
 
 LIBNAME=lib$(TARGET).a
 lib: $(LIBNAME)
+
+
+
 
 # Create library from object files.
 .SECONDARY : $(LIBNAME)
