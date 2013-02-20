@@ -17,6 +17,8 @@ OBJDIR = ./object
 
 # List C source files here. (C dependencies are automatically generated.)
 SRC = $(TARGET).c
+SRC += console.c
+
 
 CDEFS += -DGCC_XMEGA_AVR
 
@@ -79,7 +81,7 @@ MATH_LIB = -lm
 #     Each directory must be seperated by a space.
 #     Use forward slashes for directory separators.
 #     For a directory that has spaces, enclose it in quotes.
-EXTRALIBDIRS = ./kernel ./system
+EXTRALIBDIRS = ./kernel ./system ./driver
 
 EXTRALIBS = -lrtos -lsystem
 
@@ -209,12 +211,14 @@ all: begin gccversion sizebefore libraries build sizeafter end
 libraries: system kernel
 build: elf hex eep lss sym
 
+driver:
+	make -C ./driver
+
 system:
 	make -C ./system
 
 kernel:
 	make -C ./kernel
-
 
 elf: $(TARGET).elf
 hex: $(TARGET).hex
@@ -414,6 +418,7 @@ clean_list :
 	$(REMOVE) $(SRC:.c=.s)
 	$(REMOVE) $(SRC:.c=.d)
 	$(REMOVE) $(SRC:.c=.i)
+	make -C ./driver clean
 	make -C ./system clean
 	make -C ./kernel clean
 	$(REMOVEDIR) .dep
