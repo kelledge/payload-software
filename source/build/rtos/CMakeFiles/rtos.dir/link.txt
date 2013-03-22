@@ -1,0 +1,2 @@
+/usr/bin/avr-ar cr ../lib/librtos.a  CMakeFiles/rtos.dir/list.c.obj CMakeFiles/rtos.dir/queue.c.obj CMakeFiles/rtos.dir/tasks.c.obj CMakeFiles/rtos.dir/portable/MemMang/heap_3.c.obj CMakeFiles/rtos.dir/portable/GCC/ATXmega128A3/port.c.obj
+/usr/bin/avr-ranlib ../lib/librtos.a

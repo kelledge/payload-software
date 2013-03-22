@@ -1,0 +1,196 @@
+The target system is: Generic - 1 - 
+The host system is: Linux - 2.6.32-5-686-bigmem - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: -mmcu=atxmega128a3;-gstabs;-DF_CPU=32000000;;-Os;-Wall;-Wstrict-prototypes;-std=gnu99;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: -mmcu=atxmega128a3;-DF_CPU=32000000;;-Os
+Id flags: 
+
+The output was:
+0
+CMakeCXXCompilerId.cpp:79: warning: deprecated conversion from string constant to ‘char*’
+CMakeCXXCompilerId.cpp:192: warning: deprecated conversion from string constant to ‘char*’
+CMakeCXXCompilerId.cpp:193: warning: deprecated conversion from string constant to ‘char*’
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-gcc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj  -o cmTryCompileExec  
+make[1]: Leaving directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec   
+Using built-in specs.
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-checking --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr
+Thread model: single
+gcc version 4.3.5 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec'
+ /usr/lib/gcc/avr/4.3.5/../../../avr/bin/ld -m avr2 -o cmTryCompileExec /usr/lib/gcc/avr/4.3.5/../../../avr/lib/crts8515.o -L/usr/lib/gcc/avr/4.3.5 -L/usr/lib/gcc/avr/4.3.5/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc
+make[1]: Leaving directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-checking --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.3.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec']
+  link line: [ /usr/lib/gcc/avr/4.3.5/../../../avr/bin/ld -m avr2 -o cmTryCompileExec /usr/lib/gcc/avr/4.3.5/../../../avr/lib/crts8515.o -L/usr/lib/gcc/avr/4.3.5 -L/usr/lib/gcc/avr/4.3.5/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc]
+    arg [/usr/lib/gcc/avr/4.3.5/../../../avr/bin/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [avr2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/avr/4.3.5/../../../avr/lib/crts8515.o] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.3.5] ==> dir [/usr/lib/gcc/avr/4.3.5]
+    arg [-L/usr/lib/gcc/avr/4.3.5/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.3.5/../../../avr/lib]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/avr/4.3.5] ==> [/usr/lib/gcc/avr/4.3.5]
+  collapse dir [/usr/lib/gcc/avr/4.3.5/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/avr/4.3.5;/usr/lib/avr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj -c /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-g++         CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj  -o cmTryCompileExec  
+make[1]: Leaving directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-g++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec   
+Using built-in specs.
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-checking --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr
+Thread model: single
+gcc version 4.3.5 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec'
+ /usr/lib/gcc/avr/4.3.5/../../../avr/bin/ld -m avr2 -o cmTryCompileExec /usr/lib/gcc/avr/4.3.5/../../../avr/lib/crts8515.o -L/usr/lib/gcc/avr/4.3.5 -L/usr/lib/gcc/avr/4.3.5/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc
+make[1]: Leaving directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/kelledge/Repositories/payload-software/source/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-checking --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.3.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.3.5/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.3.5/:/usr/lib/gcc/avr/4.3.5/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec']
+  link line: [ /usr/lib/gcc/avr/4.3.5/../../../avr/bin/ld -m avr2 -o cmTryCompileExec /usr/lib/gcc/avr/4.3.5/../../../avr/lib/crts8515.o -L/usr/lib/gcc/avr/4.3.5 -L/usr/lib/gcc/avr/4.3.5/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc]
+    arg [/usr/lib/gcc/avr/4.3.5/../../../avr/bin/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [avr2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/gcc/avr/4.3.5/../../../avr/lib/crts8515.o] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.3.5] ==> dir [/usr/lib/gcc/avr/4.3.5]
+    arg [-L/usr/lib/gcc/avr/4.3.5/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.3.5/../../../avr/lib]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/avr/4.3.5] ==> [/usr/lib/gcc/avr/4.3.5]
+  collapse dir [/usr/lib/gcc/avr/4.3.5/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.3.5;/usr/lib/avr/lib]
+
+

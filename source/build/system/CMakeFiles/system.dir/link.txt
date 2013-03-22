@@ -1,0 +1,2 @@
+/usr/bin/avr-ar cr ../lib/libsystem.a  CMakeFiles/system.dir/clksys_driver.c.obj CMakeFiles/system.dir/spi_driver.c.obj CMakeFiles/system.dir/usart_driver.c.obj
+/usr/bin/avr-ranlib ../lib/libsystem.a

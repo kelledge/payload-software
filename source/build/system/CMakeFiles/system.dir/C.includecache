@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kelledge/Repositories/payload-software/source/system/clksys_driver.c
+clksys_driver.h
+/home/kelledge/Repositories/payload-software/source/system/clksys_driver.h
+
+/home/kelledge/Repositories/payload-software/source/system/clksys_driver.h
+avr/io.h
+-
+avr/interrupt.h
+-
+stdbool.h
+-
+
+/home/kelledge/Repositories/payload-software/source/system/spi_driver.c
+spi_driver.h
+/home/kelledge/Repositories/payload-software/source/system/spi_driver.h
+
+/home/kelledge/Repositories/payload-software/source/system/spi_driver.h
+avr/io.h
+-
+stdbool.h
+-
+stdlib.h
+-
+
+/home/kelledge/Repositories/payload-software/source/system/usart_driver.c
+usart_driver.h
+/home/kelledge/Repositories/payload-software/source/system/usart_driver.h
+
+/home/kelledge/Repositories/payload-software/source/system/usart_driver.h
+stdbool.h
+-
+avr/io.h
+-
+
